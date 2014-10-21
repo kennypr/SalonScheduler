@@ -33,6 +33,7 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      
       .otherwise({
         redirectTo: '/'
       });

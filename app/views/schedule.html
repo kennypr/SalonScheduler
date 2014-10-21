@@ -2,5 +2,30 @@
 
 Available dates and times:
 
+<link rel='stylesheet' href='bower_components/fullcalendar/dist/fullcalendar.css' />
+<!--
+<script src='lib/jquery.min.js'></script>
+-->
+<script src='scripts/lib/moment.min.js'></script>
+<script src='scripts/lib/gcal.js'></script>
+
+<script src='bower_components/fullcalendar/dist/fullcalendar.js'></script>
+
+
+<script>
+$(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+    $('#calendar').fullCalendar({
+        events: {
+            url: 'http://www.google.com/calendar/feeds/salonscheduler7%40gmail.com/public/basic',
+            className: 'gcal-event'
+        }
+    });
+
+});
+</script>
+
+<div id='calendar'></div>
 
 </div>

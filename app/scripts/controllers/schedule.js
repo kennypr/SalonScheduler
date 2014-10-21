@@ -4,7 +4,7 @@
  * @ngdoc function
  * @name salonSchedulerApp.controller:AboutCtrl
  * @description
- * # AboutCtrl
+ * # ScheduleCtrl
  * Controller of the salonSchedulerApp
  */
 angular.module('salonSchedulerApp')
@@ -14,4 +14,8 @@ angular.module('salonSchedulerApp')
       'AngularJS',
       'Karma'
     ];
+
+   
   });
+
+
